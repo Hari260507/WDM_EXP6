@@ -6,7 +6,6 @@
 Implementing Information Retrieval using the Vector Space Model in Python involves several steps, including preprocessing text data, constructing a term-document matrix, 
 calculating TF-IDF scores, and performing similarity calculations between queries and documents. Below is a basic example using Python and libraries like nltk and 
 sklearn to demonstrate Information Retrieval using the Vector Space Model.
-
 ### Procedure:
 1. Define sample documents.
 2. Preprocess text data by tokenizing, removing stopwords, and punctuation.
@@ -15,8 +14,7 @@ sklearn to demonstrate Information Retrieval using the Vector Space Model.
 5. Execute a sample query and display the search results along with similarity scores.
 
 ### Program:
-
-   ```
+ ```
 import requests
 from bs4 import BeautifulSoup
 from sklearn.feature_extraction.text import TfidfVectorizer
